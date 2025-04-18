@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLICITUD DE COTIZACIÓN | Concesionario Euroshop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        
+        .contenedor{
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #333;
+            box-shadow: 0 0 10px red;
+            border-radius: 5px;
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        nav ul label{
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: red;
+        }
+
+        #boton-unico{
+            background-color: orange;
+            color: black;
+            width: 100px;
+            height: 40px;
+        }
+
+        ul label{
+            display: inline;
+            margin:0px 150px;
+        }
+        input{
+            display: inline-flex;
+        }
+        
+        .full-width{
+            grid-column: span 3;
+        }
+
+        .checkbox {
+           grid-column: span 1;
+           display: flex;
+           align-items: center;
+       }
+
+       .checkbox input {
+            margin-right: 10px;
+       }
+
+       .terms {
+           font-size: 12px;
+           color: #555;
+           grid-column: span 3;
+           padding: 10px;
+           border: 1px solid #ccc;
+           max-height: 100px;
+           overflow-y: auto;
+       }
+       footer {
+        grid-column: span 3;
+      background-color: #1a1a1a;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    footer div {
+      flex: 1;
+      margin: 10px;
+    }
+
+    footer a {
+      color: #fff;
+      display: block;
+      text-decoration: none;
+      margin: 5px 0;
+    }
+
+    .social-icons i {
+      margin-right: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+    <header>
+        <nav>
+            <ul>
+          
+               <label><a href="">Marcas</a></label>
+               <label><a href="">Postventa</a></label>
+               <label><a href="">Blog</a></label>
+               <label><a href="">Repuestos y accesorios</a></label>
+               <label><a href="">Promociones</a></label>
+               <label><a href="">Ventas corporativas</a></label>
+               <label><a href="">Agenda tu cita</a></label>
+               
+               <button id="boton-unico">COTIZAR</button>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <div class="form-container">
+        <form id="formCotizacion">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Nombre *</label>
+              <input type="text" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+              <label>Apellido Paterno *</label>
+              <input type="text" placeholder="Apellido" required>
+            </div>
+            <div class="form-group">
+              <label>Apellido Materno *</label>
+              <input type="text" placeholder="Apellido" required>
+            </div>
+    
+            <div class="form-group">
+              <label>Celular *</label>
+              <input type="tel" maxlength="9" placeholder="Celular" required>
+              <small>0 of 9 max characters.</small>
+            </div>
+            <div class="form-group">
+              <label>DNI *</label>
+              <input type="text" maxlength="8" placeholder="DNI" required>
+              <small>0 of 8 max characters.</small>
+            </div>
+            <div class="form-group">
+              <label>Correo *</label>
+              <input type="email" placeholder="Email" required>
+            </div>
+    
+            <div class="form-group">
+              <label>Distrito *</label>
+              <input type="text" placeholder="Distrito" required>
+            </div>
+            <div class="form-group">
+              <label>Marca *</label>
+              <select id="marca" required>
+                <option value="">Seleccionar Marca</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Audi">Audi</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Modelo *</label>
+              <select id="modelo" required>
+                <option value="">Seleccionar Modelo</option>
+              </select>
+            </div>
+    
+            <div class="form-group full-width">
+              <label>Local *</label>
+              <input type="text" placeholder="Seleccionar Local" required>
+            </div>
+            <div class="form-group full-width">
+              <label>Dejar auto en forma de pago</label>
+              <input type="text" placeholder="Elegir una opción">
+            </div>
+            <div class="full-width">
+                <label>Mensaje</label>
+                <textarea rows="4"></textarea>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox">
+              <label>He leído y acepto los Términos y Condiciones *</label>
+            </div>
+            <div class="terms">
+                <p>En cumplimiento de la Ley de Protección de Datos Personales y su Reglamento, y/o sus normas complementarias, modificatorias, sustitutorias y demás disposiciones aplicables, EUROSHOP S.A., con R.U.C. N° 20349065488, y con domicilio en Av. Domingo Orué 989 – Surquillo – Lima – Perú, asegura y garantiza que, todo y cualquier dato personal que haya recopilado de manera legítima y con arreglo a ley, será tratado única y exclusivamente para cumplir con la finalidad para lo cual haya sido otorgado según consentimiento libre, previo, expreso, informado e inequívoco, y en los casos permitidos por ley cuyo tratamiento no requiere de consentimiento previo, para cumplir con las finalidades respectivas en ese sentido, tales como, uso de datos de acceso público, uso de datos para la preparación, celebración y ejecución de relaciones contractuales o profesionales necesarias para su desarrollo o cumplimiento, para fines de cumplimiento de las normas contra el lavado de activos y el financiamiento del terrorismo, por mandato legal, por orden de autoridad en ejercicio de sus funciones expresamente establecidas por ley, entre otras que legalmente estén establecidas. De esta manera, con el objeto de poder asegurar un debido y oportuno servicio técnico, soporte de postventa, cumplimiento de garantías ofrecidas, así como para mantener el uso y disfrute de todas las funcionalidades, beneficios y prestaciones que a nivel mundial ofrece la marca del vehículo adquirido por el titular de los datos personales, y siendo obligación contractual asegurar que todos los usuarios de dicha marca puedan acceder a ello, se informa al titular que sus datos personales son necesarios e indispensables para la preparación, celebración y ejecución de la relación contractual en la que es parte por ser usuario de la marca del vehículo adquirido, por lo que los mismos podrán y serán tratados para el cumplimiento de esa finalidad contractual, incluyendo el tratamiento compartido con el fabricante, conforme a la excepción regulada en el inciso 5) del artículo 14° de la Ley de Protección de Datos Personales. En virtud de dicha excepción, entre otros casos debidamente justificados y amparados por la misma Ley, los datos podrían ser comunicados o tratarse de modo compartido o transferidos de modo local y/o transfronterizo, con el representante en el Perú de las marcas de vehículos VOLKSWAGEN, AUDI, SEAT, PORSCHE, LAMBORGHINI, BENTLEY, DUCATI Y CUPRA, la empresa peruana EUROMOTORS S.A., y también con el fabricante de estos, a quienes se le podrán comunicar o transferir los datos por intermedio del citado representante y cuyo detalle se aprecia en el siguiente enlace www.euroshop.com.pe; así como también, con las empresas que conforman la RED DE CONCESIONARIOS OFICIALES o TALLERES AUTORIZADOS de dichas marcas (cuyo detalle se verifica en en www.volkswagen.com.pe,www.audi.com.pe, www.seat.pe, www.porschecenterlima.com ,https://www.lamborghini.com/es-en/concesionarios/lamborghini-lima,https://lima.bentleymotors.com/ca/es/home,https://ducatilima.com/,www.seat.pe, www.cupraofficial.pe), a quienes se le podrán comunicar o transferir los datos directamente o por intermedio del citado representante; de igual manera, a las empresas del sistema financiero peruano identificadas y acreditadas por la Superintendencia de Banca, Seguros y AFP del Perú (cuyo detalle se verifica en www.sbs.gob.pe), así como a empresas Administradoras de Fondos Colectivos autorizadas por la Superintendencia del Mercado de Valores (cuyo detalle se verifica en www.smv.gob.pe), y demás entidades privadas y públicas necesarias para el cumplimiento de las relaciones contractuales sostenidas; en este mismo sentido, y bajo la misma excepción legal, los datos podrían ser encargados para su tratamiento a quienes se detallan en el siguiente enlace www.euroshop.com.pe. Los receptores de datos personales asumen las mismas obligaciones y/o responsabilidades que EUROSHOP S.A., estableciéndose que dichos receptores podrán utilizar los datos personales del cliente únicamente para el cumplimiento de las finalidades contractuales y demás excepciones reguladas por ley por las que no se requiera consentimiento, garantizándose que los mismos respeten igualmente la protección, seguridad y confidencialidad de dichos datos, así como el ejercicio pleno ante estos de sus derechos.
+
+Los datos personales recogidos serán incorporados y tratados en un Banco de Datos de titularidad EUROSHOP S.A., declarado ante la Autoridad de Datos Personales con Código de Registro N° 2832, que es automatizado y no automatizado, garantizándose de manera expresa las medidas de seguridad técnica, organizativa y legal para el tratamiento, seguridad y confidencialidad de los datos de carácter personal facilitados por sus clientes. Seguridad y confidencialidad que se asegura igualmente para la transferencia y/o flujo transfronterizo de los mismos, cuando ello haya sido autorizado por su titular. Los datos se conservarán por plazo indefinido.
+
+Se informa a los titulares de los datos personales que no están obligados a otorgarlos, siendo ello algo de carácter facultativo, a excepción de aquellos datos de identificación personal destinados y necesarios para la ejecución de las relaciones contractuales que pueda sostener, y demás que por mandato legal no se requiere consentimiento de acuerdo a ley. Todo tratamiento de datos personales será efectuado con veracidad, calidad y proporcionalidad para las finalidades antes indicadas y para la ejecución de las relaciones contractuales, y demás permitidas por ley; la negativa a otorgar dichos datos personales impedirá su tratamiento.
+
+Todo titular de datos personales tiene la facultad de solicitar en cualquier momento y de manera gratuita e irrestricta tener acceso a la información de los datos personales proporcionados por éste, la forma y razones por la que los otorgó, las transferencias realizadas o que se prevén hacer, así como a actualizarlos, hacer inclusiones o agregados, rectificar los mismos, hacer supresiones, cancelarlos, plantear oposiciones, revocarlos o denegarlos total o parcialmente, así como plantear los reclamos y solicitudes respecto de los mismos. Para ello, el otorgante podrá ejercer dichos derechos enviando una comunicación escrita simple al domicilio físico precisado al inicio de este documento, o una comunicación vía correo electrónico a la dirección servicioalcliente@euroshop.com.pe, haciendo la precisión clara y expresa de su pedido, el cual será atendido dentro del plazo de ley.
+
+El responsable de este Banco de Datos es EUROSHOP S.A., por lo que el destino de los datos será el mismo Banco de Datos y para que ésta los pueda tratar conforme a lo autorizado, para los fines específicos antes indicados, todo con arreglo a ley. En tal sentido, se garantiza la absoluta confidencialidad, privacidad y protección de los datos personales que se formen parte del Banco de Datos, así como la idoneidad de su tratamiento, siendo que la información permanecerá protegida y segura, y no será compartida, transferida ni divulgada, salvo que se cuente con permiso expreso de su titular, o sea necesaria para la ejecución de las relaciones contractuales que pueda sostener, y demás que por mandato legal no se requiera consentimiento.
+
+Finalmente, se deja expresa constancia del firme compromiso institucional, así como por parte de todas las autoridades, directivos, ejecutivos, trabajadores y personal en general, de cumplir, respetar y garantizar la protección de los datos personales de sus titulares, en pleno respeto de los principios de Legalidad, Consentimiento, Finalidad, Proporcionalidad, Calidad, Disposición de Recurso y de Nivel de Protección Adecuado, así como de los requisitos de seguridad aplicables, manteniéndonos en una mejora continua.
+
+Para más información consulte nuestro Código de Conducta para la protección de datos personales en www.euromotors.com.pe
+
+
+
+Nuestro Compromiso con la Privacidad.
+La privacidad de nuestros usuarios es importante para nosotros. Para protegerla mejor, adoptamos esta Política de Privacidad, la cual contiene nuestras prácticas de intercambio de información por internet y las decisiones que el aceptante puede tomar en relación con la manera en que se obtiene y utiliza la información. Para facilitar la localización de esta Política de Privacidad, la colocamos a disposición en nuestra página de inicio y en todo punto donde se puedan solicitar datos de identificación personal.
+
+
+
+El usuario puede registrarse en nuestro sitio web de manera voluntaria, si desea recibir nuestros catálogos y actualizaciones sobre nuestros nuevos productos y servicios. Podemos usar información conjunta, que no permite la identificación del titular, para diseñar mejor nuestro sitio web y compartir con nuestras agencias de publicidad. Por ejemplo, podemos informar a una agencia de publicidad que una cantidad de usuarios visitaron cierta zona de nuestro sitio web, que una cantidad de hombres y una cantidad de mujeres completaron nuestro formulario de inscripción, pero no divulgaremos nada que pudiera usarse para identificar personalmente a las personas.
+
+Si el usuario elige inscribirse para que el envío de productos o materiales, o entregarnos de otro modo información personal, almacenaremos toda esa información personal o parte de ella y podríamos usarla con fines de promoción o para investigación de mercadeo, lo cual puede incluir compartirla. Nunca comercializaremos información personal a ninguna otra compañía. Tampoco usaremos ni compartiremos la información personalmente identificable que el usuario nos brinde, de formas que no tengan relación con la autorización brindada. En el caso de una investigación penal o de una presunta actividad delictiva, las autoridades competentes pueden exigirnos que compartamos cierta información personal.
+
+La aceptación de los presentes términos y condiciones constituye el consentimiento previo, informado, expreso e inequívoco, para la recepción de promociones de productos y servicios a través de servicios de telemercadeo, centros de llamada (call centers), sistemas de llamado telefónico, envío de mensajes de texto a celular o de mensajes electrónicos masivos, en los términos del Código de Defensa y Protección del Consumidor. Este consentimiento podrá ser revocado, en cualquier momento, enviando una comunicación escrita simple vía correo electrónico a la dirección servicioalcliente@euroshop.com.pe, haciendo la precisión clara y expresa de la revocación del consentimiento, el cual será procesado dentro de plazos razonables.
+
+
+
+Acerca de las “Cookies”.
+Las “cookies” son pequeños elementos de datos que algunos sitios web escriben en el disco duro del dispositivo del usuario cuando visita sus sitios o guarda la dirección en el navegador. Estos archivos de datos contienen información que el sitio puede usar para organizar las páginas visitadas en un sitio web particular. Es posible que algunos de nuestros sitios web usen tecnología de “cookies” para medir la actividad del sitio y personalizar la información a fin de que se adapte a los intereses personales del usuario, lo que nos permite brindarle información personalizada que se adapte a sus intereses la próxima vez que visite nuestro sitio. Por lo tanto, el uso que hacemos de la tecnología de “cookies” es para brindar información más individualizada y una experiencia de visualización óptima.
+
+
+
+Pixel Tags.
+Es posible que usemos “pixel tags”, es decir, pequeños archivos gráficos que nos permiten monitorear el uso de nuestros sitios web. Un pixel tag puede reunir información tal como la dirección IP (Protocolo de Internet) de la computadora que descargó la página en la cual aparece el pixel tag, el URL (Localizador Uniforme de Recursos) de la página en la que aparece el pixel tag, el horario en que se visitó la página que contiene el pixel tag, el tipo de navegador que captó el pixel tag y el número de identificación de cualquier cookie (consulta Acerca de las “cookies”) en el dispositivo previamente colocado por ese servidor. Cuando intercambiamos correspondencia con el usuario mediante e-mails que admiten HTML, podemos usar tecnología de detección de formato, que permite que los pixel tags nos informen la recepción y apertura de nuestro e-mail.
+
+
+
+Nuestro Compromiso con la Privacidad de los Niños.
+Proteger la privacidad de los más jóvenes es sumamente importante. Por ese motivo ninguna parte de nuestro sitio web está estructurada como para atraer a menores de 14 años.
+
+
+
+Consentimiento de Tratamiento de Datos Personales
+En cumplimiento de la Ley de Protección de Datos Personales, quien suscribe, otorga consentimiento voluntario, libre, previo, expreso, informado e inequívoco a EUROSHOP S.A., con R.U.C. N° 20349065488, y con domicilio en la Av. Domingo Orué 989-Surquillo-Lima – Perú, para que realice por plazo indefinido, el tratamiento, en cualquiera de sus modalidades, medios o soportes, local o transfronterizo, de los datos personales que haya podido proporcionar, incluyendo nombres, apellidos, datos de identificación, perfil, dirección, números telefónicos, correos electrónicos, imagen y/o voz, características e información de vehículos, incidencias de servicio, comportamiento del conductor y del vehículo, estilo de manejo, ajustes de confort, data del sistema de entretenimiento, de navegación y de usos e incidentes del vehículo, recorrido, placas, récord de servicios y reportes de necesidad de servicios, recorridos, estado del vehículo, y todo aquello que registren los módulos informáticos de a bordo de estos y aquella que se almacene en las llaves, incluyendo los videos, imágenes y audio; información de citas, facturación y reclamos por los servicios prestados; artículos o servicios de interés, victorias y/o participación en promociones comerciales, concursos y/o sorteos, encuestas, preferencias e intereses, datos económicos y de seguros, y relaciones sociales; para ser utilizados para fines administrativos, comerciales, de publicidad, de segmentación, estadísticos, de ubicación, de ofrecimiento y/o negociación y/o contratación de productos y servicios, de investigación, seguridad, de asesoría, de contacto, de promociones comerciales, concursos, sorteos, programas de lealtad y/o recompensas, de avisos, encuestas, comunicaciones, individual y/o masiva de productos y servicios, y de ofrecimientos en general, incluyendo las comunicaciones y el tratamiento mediante centros de llamada (call centers), sistemas de llamado telefónico, envío de mensajes de texto a celular, o de mensajes electrónicos masivos, y a través de cualquier tipo de comunicación electrónica, telefónica, escrita, virtual, aplicaciones informáticas, o bajo cualquier medio o plataforma, incluyendo redes sociales e interfaces digitales; pudiendo formar también parte estos datos de las campañas, avisos, difusiones y publicaciones que haga el receptor de los datos.
+
+Los datos personales recogidos serán incorporados y tratados en un Banco de Datos de titularidad EUROSHOP, declarado ante la Autoridad de Datos Personales con Código de Registro N° 2832, cuya existencia conoce el otorgante, que es automatizado y no automatizado, garantizándose las medidas de seguridad técnica, organizativa y legal para el tratamiento, seguridad y confidencialidad de los datos.
+
+El otorgamiento de los datos es de carácter facultativo, y no hay obligación de proporcionarlos, a excepción de aquellos necesarios para la ejecución de las relaciones contractuales, tratativas o en los supuestos permitidos por ley, para los cuales no se requiere consentimiento. Con el objeto de poder asegurar un debido y oportuno servicio técnico, soporte de postventa, y para mantener el uso y disfrute de todas las funcionalidades, beneficios y prestaciones que a nivel mundial ofrece la marca del vehículo del titular de los datos personales, y siendo obligación contractual asegurar que todos los usuarios de dicha marca puedan acceder a ello, se informa al titular que sus datos personales son necesarios e indispensables para la preparación, celebración y ejecución de la relación contractual en la que es parte por ser usuario de dicha marca de vehículo, por lo que los mismos podrán y serán tratados para el cumplimiento de esa finalidad contractual, incluyendo el tratamiento compartido con el fabricante, conforme a la excepción regulada en el inciso 5) del artículo 14° de la Ley de Protección de Datos Personales, incluyendo para ello las transferencias de datos, a nivel nacional e internacional que sean necesarias.
+
+Los datos serán tratarlos con veracidad, calidad y proporcionalidad; la negativa a otorgarlos impedirá su tratamiento, a excepción de los supuestos permitidos por ley. El otorgante de este documento tiene la facultad de solicitar en cualquier momento y de manera gratuita e irrestricta tener acceso a la información de los datos personales proporcionados por éste, la forma y razones por la que los otorgó, las transferencias realizadas o que se prevén hacer, así como a actualizarlos, hacer inclusiones o agregados, rectificar los mismos, hacer supresiones, cancelarlos, plantear oposiciones, revocarlos o denegarlos total o parcialmente, así como plantear los reclamos y solicitudes respecto de los mismos. Para ello, el otorgante podrá ejercer dichos derechos enviando una comunicación escrita simple al domicilio físico precisado al inicio de este documento, o una comunicación vía correo electrónico a servicioalcliente@euroshop.com.pe, haciendo precisión de su pedido, el cual será atendido dentro del plazo de ley.
+
+El responsable de este Banco de Datos es EUROSHOP S.A., y su destino será el mismo Banco de Datos, sin perjuicio de la autorización expresa de flujo nacional e internacional que también se otorga. En tal sentido, el otorgante autoriza y presta su consentimiento previo, expreso, libre e informado, para que se compartan sus datos personales o se realice tratamiento compartido mediante la transferencia y/o encargo de tratamiento, local y/o transfronterizo con las empresas que conforman el grupo EUROMOTORS al cual pertenece y se rigen bajo el Código de Conducta que se puede consultar en www.euromotors.com.pe; así como también, con el representante en el Perú de las marcas de vehículos VOLKSWAGEN, AUDI, SEAT, PORSCHE, LAMBORGHINI, BENTLEY, DUCATI Y CUPRA, la empresa peruana EUROMOTORS S.A, y también al fabricante de estos, a quienes se le podrán transferir los datos por intermedio del citado representante y cuyo detalle se aprecia en el siguiente enlace www.euromotors.com.pe; así como también, con las empresas que conforman la RED DE CONCESIONARIOS OFICIALES o TALLERES AUTORIZADOS de dichas marcas (cuyo detalle se verifica en en www.volkswagen.com.pe,www.audi.com.pe, www.seat.pe, www.porschecenterlima.com ,https://www.lamborghini.com/es-en/concesionarios/lamborghini-lima,https://lima.bentleymotors.com/ca/es/home,https://ducatilima.com/,www.seat.pe, www.cupraofficial.pe), a quienes se le podrán transferir los datos directamente o por intermedio del citado representante; de igual manera, el otorgante autoriza la transferencia de sus datos personales a las empresas del sistema financiero peruano identificadas y acreditadas por la Superintendencia de Banca, Seguros y AFP del Perú (cuyo detalle se verifica en www.sbs.gob.pe), así como a empresas Administradoras de Fondos Colectivos autorizadas por la Superintendencia del Mercado de Valores (cuyo detalle se verifica en www.smv.gob.pe). Del mismo modo, se otorga consentimiento a fin de que, se pueda realizar el encargo de tratamiento de datos personales a quienes se detallan en el siguiente enlace www.euroshop.com.pe. Los receptores de datos personales asumen las mismas obligaciones y/o responsabilidades que EUROSHOP S.A, estableciéndose que dichos receptores podrán utilizar los datos personales del cliente únicamente para las mismas finalidades y destino regulado en el presente documento, y para cumplir con el encargo efectuado, garantizándose que los mismos respeten igualmente la protección, seguridad y confidencialidad de dichos datos, así como el ejercicio pleno ante estos de sus derechos.
+
+Finalmente, se ratifica el compromiso institucional, de cumplir, respetar y garantizar la protección de los datos personales de sus titulares, en pleno respeto de los principios de Legalidad, Consentimiento, Finalidad, Proporcionalidad, Calidad, Disposición de Recurso y de Nivel de Protección Adecuado, así como de los requisitos de seguridad aplicables, manteniéndonos en una mejora continua.</p>
+            </div>
+    <div>
+        <button type="submit">Enviar</button>
+    </div>
+       
+</form>     
+    <footer>
+        <div>
+          <img src="logo-footer.png" alt="Euroshop" height="60">
+          <p>Ingresa aquí y revisa la lista completa de nuestros locales.</p>
+          <button style="background:#d1a636;border:none;padding:10px 20px;">LOCALES</button>
+        </div>
+        <div>
+          <strong>Cotiza un vehículo o agenda una cita para taller:</strong>
+          <p>+51 983 879 999</p>
+          <p>(01) 618 5055</p>
+          <p>atencionalcliente@euroshop.com.pe</p>
+        </div>
+        <div>
+          <strong>Información Importante</strong>
+          <a href="#">Nosotros</a>
+          <a href="#">Llamado a revisión</a>
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Libro de reclamaciones</a>
+          <a href="#">Pago Online</a>
+        </div>
+        <div>
+          <strong>Redes sociales</strong>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">TikTok</a>
+        </div>
+      </footer>
+</body>
+</html>
